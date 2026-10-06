@@ -5,11 +5,7 @@ int main(){
 	int number;
 	scanf ("%d", &number);
 	if (number > 0 && number%2 == 0)	printf("Positive Even");
-
 	if (number > 0 && number%2 != 0)		printf("Positive Odd");
-	if (number < 0 && number%2 == 0)	printf("Negative Even");
-	if (number < 0 && number%2 != 0)		printf("Negative Odd ");
-	if (number > 0 && number%2 > 0)		printf("Positive Odd");
 	// check if (number > 0 && number %2 != 0) == and != are easy to evaluate by the compiler
 	if (number < 0 && number%2 == 0)	printf("Negative Even");
 	if (number < 0 && number%2 < 0)		printf("Negative Odd ");
